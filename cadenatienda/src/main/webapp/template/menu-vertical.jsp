@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <span class="brand-link">
-      <img src="${pageContext.request.contextPath}/img/logo-carro.png" alt="GanaGana Logo" class="brand-image" style="opacity: .8">
+      <img src="${pageContext.request.contextPath}/images/logo-carro.png" alt="GanaGana Logo" class="brand-image" style="opacity: .8">
       <span class="brand-text font-weight-light">Tienda virtual</span>
     </span>
 
@@ -10,7 +10,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="${pageContext.request.contextPath}/img/user.png" class="img-circle elevation-1" alt="User Image">
+          <img src="${pageContext.request.contextPath}/images/user.png" class="img-circle elevation-1" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block"><%=request.getSession().getAttribute("usuario")%></a>
@@ -32,31 +32,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="http://localhost:6450/login/UsuariosServlet?accion=Listar" class="nav-link">
+                <a href="" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Usuarios</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="http://localhost:6450/login/ClientesServlet?accion=Listar" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Clientes</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://localhost:6450/login/ProveedoresServlet?accion=Listar" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Proveedores</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://localhost:6450/login/ProductosServlet?accion=Listar" class="nav-link">
+                <a href="${pageContext.request.contextPath}/JSP/productos.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Productos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="http://localhost:6450/login/VentasServlet?accion=factura" class="nav-link">
+                <a href="${pageContext.request.contextPath}/JSP/clientes.jsp" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Clientes</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="${pageContext.request.contextPath}/JSP/ventas.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ventas</p>
                 </a>
@@ -65,6 +59,12 @@
                 <a href="${pageContext.request.contextPath}/JSP/reportes.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Reportes</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="${pageContext.request.contextPath}/JSP/consolidacion.jsp" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Proveedores</p>
                 </a>
               </li>
             </ul>

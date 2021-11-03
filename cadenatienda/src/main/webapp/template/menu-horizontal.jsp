@@ -14,7 +14,7 @@
             <div class="media">
               <div class="media-body">
                  <h3 class="dropdown-item-title info">
-                 <img src="${pageContext.request.contextPath}/img/user.png" alt="Imagen Usuario" class="img-size-50 mr-3 img-circle">
+                 <img src="${pageContext.request.contextPath}/images/user.png" alt="Imagen Usuario" class="img-size-50 mr-3 img-circle">
                   <b><%=request.getSession().getAttribute("usuario")%></b>
                   <span class="text-center d-block" style="font-size:13px; width:112%; color:#869099;">
                   <%=request.getSession().getAttribute("email")%>
@@ -25,7 +25,7 @@
             <!-- Message End -->
           </a>
           <a class="dropdown-item">
-          <form action="${pageContext.request.contextPath}/LoginServlet" method="post">
+          <form action="" method="post">
             <!-- Message Start -->
             <div class="media">
               <div class="media-body">
