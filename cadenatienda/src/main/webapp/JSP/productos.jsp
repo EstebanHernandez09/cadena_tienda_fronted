@@ -68,11 +68,11 @@
 							        <tbody>
 								        	<tr>
 								                <td style="text-align: center;">01</td>
-								                <td style="text-align: center;">Queso doble crema</td>
+								                <td style="text-align: center;">Tenis Reebok Hombre Moda Leather Ripple Trail</td>
 								                <td style="text-align: center;">1122</td>
-								                <td style="text-align: center;">2000</td>
+								                <td style="text-align: center;">200000</td>
 								                <td style="text-align: center;">19</td>
-								                <td style="text-align: center;">2500</td>
+								                <td style="text-align: center;">250000</td>
 								                <td style="text-align: center;"><div class="row" style="margin:auto;"><button class="btn btn-outline-success" id="" data-toggle="modal" data-target="#modal_editar_producto"><i class="fas fa-edit"></i></button>
 								                <button class="btn btn-outline-danger" id="" onclick="elim_producto(this);"> <i class="far fa-trash-alt"></i></button>
 								                </div></td>
