@@ -73,7 +73,7 @@
 								                <td style="text-align: center;">2000</td>
 								                <td style="text-align: center;">19</td>
 								                <td style="text-align: center;">2500</td>
-								                <td style="text-align: center;"><div class="row" style="margin:auto;"><button class="btn btn-outline-success" id="" onclick="mostrar_producto(this);"><i class="fas fa-edit"></i></button>
+								                <td style="text-align: center;"><div class="row" style="margin:auto;"><button class="btn btn-outline-success" id="" data-toggle="modal" data-target="#modal_editar_producto"><i class="fas fa-edit"></i></button>
 								                <button class="btn btn-outline-danger" id="" onclick="elim_producto(this);"> <i class="far fa-trash-alt"></i></button>
 								                </div></td>
 								            </tr>
@@ -108,7 +108,7 @@
                                 </div>
                                 </div>
                                 <p class="login-box-msg">Registre un nuevo producto</p>
-                                <form method="POST" action="${pageContext.request.contextPath}/ProductosServlet">
+                                <form method="POST" action="">
                                   <div class="input-group mb-3">
                                     <input type="number" class="form-control" id="cod_producto" name="cod_producto" placeholder="Codigo de producto">
                                     <div class="input-group-append">
@@ -191,7 +191,7 @@
                                 </div>
                                 </div>
                                 <p class="login-box-msg">Formulario de edicion de productos</p>
-                                <form method="POST" action="${pageContext.request.contextPath}/ProductosServlet">
+                                <form method="POST" action="">
                                 <div class="input-group mb-3">
                                     <input type="number" class="form-control" id="cod_producto" name="cod_producto" placeholder="Codigo de producto" value="">
                                     <div class="input-group-append">

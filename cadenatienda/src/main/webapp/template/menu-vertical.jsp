@@ -13,7 +13,7 @@
           <img src="${pageContext.request.contextPath}/images/user.png" class="img-circle elevation-1" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><%=request.getSession().getAttribute("usuario")%></a>
+          <a href="#" class="d-block">Nombre Usuario</a>
         </div>
       </div>
 
@@ -41,30 +41,6 @@
                 <a href="${pageContext.request.contextPath}/JSP/productos.jsp" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Productos</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="${pageContext.request.contextPath}/JSP/clientes.jsp" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Clientes</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="${pageContext.request.contextPath}/JSP/ventas.jsp" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Ventas</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="${pageContext.request.contextPath}/JSP/reportes.jsp" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Reportes</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="${pageContext.request.contextPath}/JSP/consolidacion.jsp" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Proveedores</p>
                 </a>
               </li>
             </ul>

@@ -44,7 +44,7 @@
           </div>
           <!-- /.col -->
           <div class="col-12">
-         	 <input type="submit" class="btn btn-primary btn-block" name= "accion" value="Ingresar">
+         	 <input type="submit" onclick="usuario();" class="btn btn-primary btn-block" name="accion" value="Ingresar">
           </div>
           <!-- /.col -->
         </div>

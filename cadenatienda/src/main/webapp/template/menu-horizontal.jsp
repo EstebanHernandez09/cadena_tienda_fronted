@@ -15,9 +15,9 @@
               <div class="media-body">
                  <h3 class="dropdown-item-title info">
                  <img src="${pageContext.request.contextPath}/images/user.png" alt="Imagen Usuario" class="img-size-50 mr-3 img-circle">
-                  <b><%=request.getSession().getAttribute("usuario")%></b>
+                  <b>Nombre Usuario</b>
                   <span class="text-center d-block" style="font-size:13px; width:112%; color:#869099;">
-                  <%=request.getSession().getAttribute("email")%>
+                  emailusuario@gmail.com
                  </span>
                 </h3>
               </div>
